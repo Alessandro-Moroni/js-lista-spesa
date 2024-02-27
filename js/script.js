@@ -12,7 +12,7 @@ let counterSpesa = 0;
 
 while(!(counterSpesa == listaSpesa.length)){ 
   
-  elementoSpesa.innerHTML += `${listaSpesa[counterSpesa]}`;
+  elementoSpesa.innerHTML += `<li>${listaSpesa[counterSpesa]}</li>`;
   
   counterSpesa++;
 }
